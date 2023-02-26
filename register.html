@@ -1,0 +1,72 @@
+<!--
+Authors: Ray Oviasuyi, Naa-adjoa Taylor
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./content/app.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <script defer src="register.html"></script>
+<body class="background">
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-chalkboard-user"></i> WEBD6201 - 14724</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html"><i class="fa-solid fa-basket-shopping"></i> Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html"><i class="fa-solid fa-user-tie"></i> Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="fa-regular fa-address-card"></i> About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+        </li>
+        </button>
+    </div>
+    </div>
+  </nav>
+<div class="container">
+  <form id="registerForm">
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" class="form-control" id="password" placeholder="Enter password">
+    </div>
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password">
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+  </form>
+  <script src="app.js"></script>
+</div>
+</header>
+</body>
+</html>
